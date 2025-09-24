@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int speed;
+    printf("Precaution Is Better Than Cure! Our safety is our very first responsibility.That it why it is important to make sure our home is also safe when we are away from it that is why we will check its safety before leaving.\n");
+    printf("Input the speed of the aluminium disc in the meter?\n");
+    scanf("%d",&speed);
+    if(speed>1500)
+    {
+        printf("warning:switch off the appliance to avoid any accidents");
+    }
+    else
+    {
+        printf("Good Job! you are safe to go.");
+    }
+    return 0;
+}
